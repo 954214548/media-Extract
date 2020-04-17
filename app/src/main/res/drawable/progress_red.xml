@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@android:id/background">-->
+        <!--<shape>-->
+            <!--<corners android:radius="50dp" />-->
+            <!--<solid android:color="@android:color/transparent" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!--<item android:id="@android:id/progress">-->
+        <!--<scale-->
+            <!--android:drawable="@drawable/round_red"-->
+            <!--android:scaleWidth="100%" />-->
+    <!--</item>-->
+    <!--背景色-->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dip" />
+            <solid android:color="#CCCCCC" />
+        </shape>
+    </item>
+    <!--二级进度条的颜色-->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5dip" />
+                <solid android:color="#8866BCFD" />
+            </shape>
+        </clip>
+    </item>
+    <!--一级进度条的颜色，也可以直接替换成图片-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dip" />
+                <solid android:color="#0F1146" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

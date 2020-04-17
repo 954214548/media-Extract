@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StickyListHeadersListView">
+        <attr name="stickyListHeadersListViewStyle" format="reference"/>
+
+        <!-- View attributes -->
+        <attr name="android:clipToPadding" />
+        <attr name="android:scrollbars" />
+        <attr name="android:overScrollMode" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:choiceMode" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:listSelector" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:scrollbarStyle" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:transcriptMode" />
+        <attr name="android:stackFromBottom" />
+
+        <!-- StickyListHeaders attributes -->
+        <attr name="hasStickyHeaders" format="boolean" />
+        <attr name="isDrawingListUnderStickyHeader" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--扩散圆颜色-->
+    <attr name="diffuse_color" format="color"/>
+    <!--中心圆颜色-->
+    <attr name="diffuse_coreColor" format="color"/>
+    <!--中心圆图片-->
+    <attr name="diffuse_coreImage" format="reference"/>
+    <!--中心圆半径-->
+    <attr name="diffuse_coreRadius" format="float"/>
+    <!--扩散圆宽度,值越小越宽-->
+    <attr name="diffuse_width" format="integer"/>
+    <!--最大扩散宽度-->
+    <attr name="diffuse_maxWidth" format="integer"/>
+    <!--扩散速度，值越大越快-->
+    <attr name="diffuse_speed" format="integer"/>
+
+    <declare-styleable name="DiffuseView">
+        <attr name="diffuse_color"/>
+        <attr name="diffuse_coreColor"/>
+        <attr name="diffuse_coreImage"/>
+        <attr name="diffuse_coreRadius"/>
+        <attr name="diffuse_width"/>
+        <attr name="diffuse_maxWidth"/>
+        <attr name="diffuse_speed"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="WaveView">
+        <attr name="wvType" format="enum">
+            <enum name="centerLine" value="0"/>
+            <enum name="single" value="1"/>
+        </attr>
+        <attr name="wvCenterLineColor" format="color" />
+        <attr name="wvCenterLineWidth" format="dimension" />
+        <attr name="wvLineColor" format="color" />
+        <attr name="wvLineWidth" format="dimension" />
+        <attr name="wvLineSpace" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="waveView">
+        <attr name="waveColor" format="color" />
+        <attr name="texture_bg_waveColor" format="color" />
+        <attr name="waveOffset" format="dimension" />
+        <attr name="waveCount" format="dimension" />
+    </declare-styleable>
+</resources>

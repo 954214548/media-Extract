@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Muxer</string>
+
+    <string name="get_audio">Audio extract</string>
+    <string name="get_video">视频提取</string>
+    <string name="open_get_audiopath">音频位置</string>
+    <string name="open_get_videopath">视频位置</string>
+
+    <string name="string_click_add_video">click add video</string>
+
+    <string name="string_extract">Extract</string>
+    <string name="string_edit_audio">Edit Audio</string>
+    <string name="string_cut_audio">Edit audio</string>
+    <string name="string_muxer_video">Muxer Video</string>
+    <string name="string_setting">Setting</string>
+    <string name="string_file">File</string>
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+
+    <string name="stop">stop</string>
+    <string name="play">play</string>
+    <string name="bad_extension_error">尚不支持有类型的文件。</string>
+    <string name="no_extension_error">尚不支持无扩展名（如.mp3、.wav）的文件</string>
+    <string name="read_error">read error</string>
+    <string name="write_error">write error</string>
+    <string name="alert_title_success">success</string>
+    <string name="alert_title_failure">failure</string>
+    <string name="alert_ok_button">confirm</string>
+    <string name="alert_yes_button">yes，please！</string>
+    <string name="alert_no_button">no，thank you。</string>
+    <string name="save_success_message">Saved！</string>
+    <string name="menu_save">save</string>
+    <string name="menu_reset">reset</string>
+    <string name="menu_about">About</string>
+    <string name="menu_show_all_audio">显示所有音频</string>
+
+    <string name="progress_dialog_loading">载入中…</string>
+    <string name="progress_dialog_recording">Recording…</string>
+    <string name="progress_dialog_saving">保持中…</string>
+    <string name="progress_dialog_cancel">Cancel</string>
+    <string name="progress_dialog_stop">Stop</string>
+    <string name="default_ringtone_success_message">默认铃声已更改</string>
+    <string name="play_error">无法播放此媒体文件</string>
+    <string name="no_unique_filename">无法找到专属文件名</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="too_small_error">无法保存过小的文件，请尝试使其更长。</string>
+    <string name="no_space_error">您的SD卡已满，没有足够空间保存此文件。</string>
+
+    <string name="file_save_title">save as：</string>
+    <string name="file_save_button_save">save</string>
+    <string name="file_save_button_cancel">cancel</string>
+    <string name="ringtone_type_label">type：</string>
+    <string name="type_music">music</string>
+    <string name="type_alarm">alarm</string>
+    <string name="type_notification">Notification</string>
+    <string name="type_ringtone">Ringtone</string>
+    <string name="ringtone_name_label">Name：</string>
+    <string name="artist_name">Ringdroid</string>
+
+    <string name="start_label">start：</string>
+    <string name="end_label">end:</string>
+    <string name="edit_intent">edit</string>
+    <string name="time_seconds">s</string>
+
+
+    <string name="what_to_do_with_ringtone">已保存！要将其设为默认铃声或分配到某个联系人吗？</string>
+    <string name="set_default_notification">已保存！要将其设为默认通知吗？</string>
+    <string name="make_default_ringtone_button">set default</string>
+    <string name="choose_contact_ringtone_button">分配到联系人</string>
+    <string name="do_nothing_with_ringtone_button">close</string>
+
+    <string name="tip">tip</string>
+    <string name="no_tip_again">no tips again</string>
+    <string name="string_record_path">Record Path</string>
+    <string name="string_muxer_select">Click continue</string>
+    <string name="string_file_name">File name</string>
+    <string name="string_muxer">Muxer</string>
+    <string name="string_muxer_finshed">Muxer finish</string>
+    <string name="string_save">Save</string>
+    <string name="string_saveasring">Save as ring</string>
+    <string name="string_reset">Reset</string>
+    <string name="string_record">Record</string>
+    <string name="string_video_test">Pilot </string>
+    <string name="string_muxer_record">you must record,please!</string>
+    <string name="string_extract_finish">Extract finish</string>
+    <string name="string_muxer_file">Muxered path</string>
+    <string name="string_muxer_play_tip">please muxer!</string>
+    <string name="string_muxer_handle_tip">Click the Record button to start recording. Click Finish when finished. After the merge is muxer, you can click to play the muxered video.</string>
+
+    <string name="about_title">About</string>
+    <string name="about_text">待写</string>
+
+</resources>

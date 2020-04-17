@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">音视合并</string>
+
+    <string name="get_audio">音频提取</string>
+    <string name="get_video">视频提取</string>
+    <string name="open_get_audiopath">音频位置</string>
+    <string name="open_get_videopath">视频位置</string>
+
+    <string name="string_click_add_video">点击添加视频</string>
+
+    <string name="string_extract">提取</string>
+    <string name="string_edit_audio">剪辑音频</string>
+    <string name="string_cut_audio">剪切音频</string>
+    <string name="string_muxer_video">合成视频</string>
+    <string name="string_setting">设置</string>
+    <string name="string_file">文件</string>
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+
+    <string name="stop">停止</string>
+    <string name="play">播放</string>
+    <string name="bad_extension_error">尚不支持有类型的文件。</string>
+    <string name="no_extension_error">尚不支持无扩展名（如.mp3、.wav）的文件</string>
+    <string name="read_error">读文件时出错</string>
+    <string name="write_error">写文件时出错</string>
+    <string name="alert_title_success">成功</string>
+    <string name="alert_title_failure">错误</string>
+    <string name="alert_ok_button">确定</string>
+    <string name="alert_yes_button">是的，请吧！</string>
+    <string name="alert_no_button">不，谢谢。</string>
+    <string name="save_success_message">已保存！</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_reset">重置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_show_all_audio">显示所有音频</string>
+
+    <string name="progress_dialog_loading">载入中…</string>
+    <string name="progress_dialog_recording">Recording…</string>
+    <string name="progress_dialog_saving">保持中…</string>
+    <string name="progress_dialog_cancel">Cancel</string>
+    <string name="progress_dialog_stop">Stop</string>
+    <string name="default_ringtone_success_message">默认铃声已更改</string>
+    <string name="play_error">无法播放此媒体文件</string>
+    <string name="no_unique_filename">无法找到专属文件名</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="too_small_error">无法保存过小的文件，请尝试使其更长。</string>
+    <string name="no_space_error">您的SD卡已满，没有足够空间保存此文件。</string>
+
+    <string name="file_save_title">另存为：</string>
+    <string name="file_save_button_save">保存</string>
+    <string name="file_save_button_cancel">取消</string>
+    <string name="ringtone_type_label">类型：</string>
+    <string name="type_music">音乐</string>
+    <string name="type_alarm">闹铃</string>
+    <string name="type_notification">通知</string>
+    <string name="type_ringtone">铃声</string>
+    <string name="ringtone_name_label">名称：</string>
+    <string name="artist_name">Ringdroid</string>
+
+    <string name="start_label">开始：</string>
+    <string name="end_label">结束:</string>
+    <string name="edit_intent">编辑</string>
+    <string name="time_seconds">秒数</string>
+
+
+    <string name="what_to_do_with_ringtone">已保存！要将其设为默认铃声或分配到某个联系人吗？</string>
+    <string name="set_default_notification">已保存！要将其设为默认通知吗？</string>
+    <string name="make_default_ringtone_button">设为默认</string>
+    <string name="choose_contact_ringtone_button">分配到联系人</string>
+    <string name="do_nothing_with_ringtone_button">关闭</string>
+
+
+    <string name="tip">提示</string>
+    <string name="no_tip_again">不在提示</string>
+    <string name="string_record_path">录音路径</string>
+    <string name="string_muxer_select">点击跳转到合成界面</string>
+    <string name="string_file_name">文件名</string>
+    <string name="string_muxer">合并</string>
+    <string name="string_muxer_finshed">合并完成</string>
+    <string name="string_save">保存</string>
+    <string name="string_saveasring">设为铃声</string>
+    <string name="string_reset">重置</string>
+    <string name="string_record">录音</string>
+    <string name="string_video_test">试播</string>
+    <string name="string_muxer_record">请先录音</string>
+    <string name="string_extract_finish">提取完成</string>
+    <string name="string_muxer_file">合并后路径</string>
+    <string name="string_muxer_play_tip">请先合并视频</string>
+    <string name="string_muxer_handle_tip">点击录音按钮开始录音，完成后点击合并，合并完成后可以点击试播播放合并后的视频</string>
+
+    <string name="about_title">关于Ringdroid</string>
+    <string name="about_text">待写</string>
+
+</resources>

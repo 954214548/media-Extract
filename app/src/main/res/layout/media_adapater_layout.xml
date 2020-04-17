@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:waveview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_250"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <lm.com.audioextract.view.CustomVideoView
+            android:id="@+id/play_video_vpv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/muxer_video_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/muxer_video_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/string_muxer_select"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium_size"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/muxer_video_iv"
+            android:layout_alignParentEnd="true"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="match_parent"
+            android:background="@drawable/icon_right"/>
+    </RelativeLayout>
+</LinearLayout>

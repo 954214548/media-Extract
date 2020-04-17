@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_hight"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/string_extract"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium_size"
+            />
+        <ImageView
+            android:id="@+id/add_file_iv"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/add_file"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40" />
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/select_video_tv"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_80"
+                android:drawableTop="@drawable/ic_dashboard_black_24dp"
+                android:text="@string/string_click_add_video"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/media_extractor_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+</LinearLayout>
