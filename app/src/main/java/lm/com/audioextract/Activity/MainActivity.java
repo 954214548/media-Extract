@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 import android.os.Bundle;
 import android.view.View;
 
-import io.reactivex.Observable;
+
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.Observer;
@@ -28,7 +28,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        RxJavaTest();
+
         setContentView(R.layout.activity_main);
         bottomBar = findViewById(R.id.bottom_bar);
         bottomBar.setContainer(R.id.fl_container)
@@ -77,40 +77,4 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     }
 
-    private void RxJavaTest(){
-        Observable<String> oble = Observable.create(new ObservableOnSubscribe<String>() {
-            @Override
-            public void subscribe(ObservableEmitter<String> emitter) throws Exception {
-                emitter.onNext("kaishi");
-                emitter.onComplete();
-                emitter.onNext("end");
-
-            }
-        });
-
-
-        Observer<String> observer = new Observer<String>() {
-            @Override
-            public void onSubscribe(Disposable d) {
-                LogUtil.d("Observer","onSubscribe");
-
-            }
-
-            @Override
-            public void onNext(String s) {
-                LogUtil.d("Observer","onNext:"+s);
-            }
-
-            @Override
-            public void onError(Throwable e) {
-                LogUtil.d("Observer","onError");
-            }
-
-            @Override
-            public void onComplete() {
-                LogUtil.d("Observer","onComplete");
-            }
-        };
-        oble.subscribe(observer);
-    }
 }
