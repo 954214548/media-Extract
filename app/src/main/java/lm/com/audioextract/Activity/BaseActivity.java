@@ -10,8 +10,9 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import lm.com.audioextract.model.MessageEvent;
 import lm.com.audioextract.utils.CheckPermissionUtils;
+import me.jessyan.autosize.internal.CustomAdapt;
 
-public class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends AppCompatActivity implements CustomAdapt {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +35,15 @@ public class BaseActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         EventBus.getDefault().unregister(this);
+    }
+
+    @Override
+    public boolean isBaseOnWidth() {
+        return true;
+    }
+
+    @Override
+    public float getSizeInDp() {
+        return 420;
     }
 }

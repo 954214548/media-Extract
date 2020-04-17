@@ -15,8 +15,9 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import lm.com.audioextract.model.MessageEvent;
 import lm.com.audioextract.utils.CheckPermissionUtils;
+import me.jessyan.autosize.internal.CustomAdapt;
 
-public class BaseFragment extends Fragment implements View.OnClickListener {
+public class BaseFragment extends Fragment implements View.OnClickListener, CustomAdapt {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -50,5 +51,15 @@ public class BaseFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
 
+    }
+
+    @Override
+    public boolean isBaseOnWidth() {
+        return true;
+    }
+
+    @Override
+    public float getSizeInDp() {
+        return 420;
     }
 }
